@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="40dp">
+
+	<LinearLayout
+		android:id="@+id/user_name_linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_account"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="15dp"
+			android:textColor="@android:color/black"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:text="User Name"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:id="@+id/language_linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_language"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="15dp"
+			android:textColor="@android:color/black"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:text="Change Language"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:id="@+id/about_linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_help"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="15dp"
+			android:textColor="@android:color/black"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:text="About"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:id="@+id/log_out_linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<ImageView
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_exit"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="15dp"
+			android:textColor="@android:color/black"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:text="Logout"/>
+	</LinearLayout>
+</LinearLayout>
