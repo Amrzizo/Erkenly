@@ -1,3 +1,5 @@
 <resources>
 	<string name="app_name">Erkenly</string>
+	<string name="email_validation">Please Enter Valid Email</string>
+	<string name="password_validation">Please Enter Valid password</string>
 </resources>

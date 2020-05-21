@@ -7,5 +7,21 @@
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
 		<item name="colorAccent">@color/colorAccent</item>
 	</style>
+	
+	<style name="progressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+		
+		<item name="color">@color/colorPrimary</item>
+		<item name="colorAccent">@color/colorPrimary</item>
+		
+	</style>
+
+	<style name="MainButtonStyle" parent="Widget.AppCompat.Button">
+		<item name="android:background">@drawable/button_rounded_bg</item>
+		<item name="android:textColor"> @color/white</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">20sp</item>
+
+
+	</style>
 
 </resources>
