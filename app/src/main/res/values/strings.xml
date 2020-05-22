@@ -2,4 +2,25 @@
 	<string name="app_name">Erkenly</string>
 	<string name="email_validation">Please Enter Valid Email</string>
 	<string name="password_validation">Please Enter Valid password</string>
+	<string name="str_register_txt">Register</string>
+	<string name="str_name_hint">Name</string>
+	<string name="str_email_hint">Email</string>
+	<string name="str_password_hint">Password</string>
+	<string name="str_confirm_password_hint">Confirm Password</string>
+	<string name="str_mobile_hint">Mobile</string>
+	<string name="str_hour_price_hint">Hour price</string>
+	<string name="str_to_hour_hint">To </string>
+	<string name="str_from_hour_hint">From </string>
+	<string name="str_Capacity_hint">Capacity </string>
+
+
+	<string name="str_name_validation_error">Please Enter Valid Name </string>
+	<string name="str_email_validation_error">Please Enter Valid Email </string>
+	<string name="str_password_validation_error">Please Enter Valid Password </string>
+	<string name="str_ConfirmPassword_validation_error">Please Enter Valid ConfirmPassword </string>
+	<string name="str_ConfirmPassword_Not_match_validation_error">Password not Matched </string>
+	<string name="str_mobile_validation_error">Please Enter Valid Mobile </string>
+	<string name="str_regiateration_success">You Have Registered Successfully :)</string>
+	<string name="str_regiateration_error">Registeration failed Please try again</string>
+	<string name="str_regiateration_error_failure">There is Problem reaching Server</string>
 </resources>

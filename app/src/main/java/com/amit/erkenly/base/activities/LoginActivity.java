@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import com.amit.erkenly.R;
 import com.amit.erkenly.control.Controller;
-import com.amit.erkenly.network.model.LoginRequest;
-import com.amit.erkenly.network.model.LoginResponse;
+import com.amit.erkenly.network.model.request.LoginRequest;
+import com.amit.erkenly.network.model.response.LoginResponse;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -57,7 +57,7 @@ public class LoginActivity extends BaseActivity {
     private void doLogin(final LoginRequest loginRequest) {
 
 
-        Call<LoginResponse>  loginResponseCall = Controller.getInstance().getService().login(loginRequest);
+        Call<LoginResponse>  loginResponseCall = Controller.getInstance().getService().login(loginRequest, Controller.getInstance().getDefaultHeader());
         loginResponseCall.enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
@@ -97,5 +97,11 @@ public class LoginActivity extends BaseActivity {
     @Override
     public boolean isMenuEnabled() {
         return false;
+    }
+
+    public void registerClick(){
+
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
     }
 }

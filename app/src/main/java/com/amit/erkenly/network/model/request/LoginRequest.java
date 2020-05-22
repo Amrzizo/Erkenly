@@ -1,4 +1,4 @@
-package com.amit.erkenly.network.model;
+package com.amit.erkenly.network.model.request;
 
 import java.io.Serializable;
 

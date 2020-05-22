@@ -81,11 +81,12 @@
 		app:layout_constraintTop_toBottomOf="@+id/ed_password" />
 
 	<TextView
-		android:id="@+id/textView2"
+		android:id="@+id/tv_register_link"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginStart="8dp"
 		android:text="Register"
+		android:onClick="registerClick"
 		android:textColor="@color/colorPrimary"
 		android:textSize="17sp"
 		android:textStyle="bold"
