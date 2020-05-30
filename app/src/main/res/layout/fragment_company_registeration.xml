@@ -186,7 +186,7 @@
 
 
     <Button
-        android:id="@+id/add_new_branch_button"
+        android:id="@+id/company_register_btn"
         style="@style/MainButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

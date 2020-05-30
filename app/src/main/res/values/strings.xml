@@ -20,7 +20,28 @@
 	<string name="str_ConfirmPassword_validation_error">Please Enter Valid ConfirmPassword </string>
 	<string name="str_ConfirmPassword_Not_match_validation_error">Password not Matched </string>
 	<string name="str_mobile_validation_error">Please Enter Valid Mobile </string>
+	<string name="str_capacity_validation_error">Please Enter Valid Capacity </string>
+	<string name="str_from_hour_validation_error">Please Enter Valid From Hour </string>
+	<string name="str_to_Hour_validation_error">Please Enter Valid To Hour </string>
+	<string name="str_from_image_validation_error">Please You must set company image </string>
+	<string name="str_hour_price_validation_error">Please You must set Hour price</string>
+	<string name="str_camera_validation_error">Please You must choose photo</string>
 	<string name="str_regiateration_success">You Have Registered Successfully :)</string>
 	<string name="str_regiateration_error">Registeration failed Please try again</string>
 	<string name="str_regiateration_error_failure">There is Problem reaching Server</string>
+	<string name="str_gps_required_title">GPS Permission is required</string>
+	<string name="str_gps_required_message">Erkeny need your Gps location permission</string>
+
+	<string name="str_external_storage_required_title">GPS Permission is required</string>
+	<string name="str_external_storage_required_message">Erkeny need your Gps location permission</string>
+
+	<string name="str_camera_required_title">Camera Permission is required</string>
+	<string name="str_camera_required_message">Erkeny need your Camera location permission</string>
+	<string name="str_ok_txt">Ok</string>
+	<string name="str_cancel_txt">Cancel</string>
+	<string name="str_GPS_title">Settings</string>
+	<string name="str_GPS_mesage">GPS is off, please enable it</string>
+	<string name="str_add_photo">Add photo</string>
+	<string name="str_chooser_take_photo">Take photo</string>
+	<string name="str_chooser_add_from_gallary">add from Gallary</string>
 </resources>

@@ -1,8 +1,10 @@
 package com.amit.erkenly.network;
 
 import com.amit.erkenly.network.model.request.ClientRegisterRequest;
+import com.amit.erkenly.network.model.request.CompanyRegisterationRequest;
 import com.amit.erkenly.network.model.request.LoginRequest;
 import com.amit.erkenly.network.model.response.ClientRegisterResponse;
+import com.amit.erkenly.network.model.response.CompanyRegisterResponseSuccess;
 import com.amit.erkenly.network.model.response.LoginResponse;
 
 import java.util.Map;
@@ -22,5 +24,9 @@ public interface ServicesAPI {
     @POST("register/client")
     Call<ClientRegisterResponse> clientRegister (@Body ClientRegisterRequest clientRegisterRequest, @HeaderMap Map<String , String> headers);
 
+
+
+    @POST("register/company")
+    Call<CompanyRegisterResponseSuccess> CompanyRegister (@Body CompanyRegisterationRequest companyRegisterationRequest, @HeaderMap Map<String , String> headers);
 
 }
